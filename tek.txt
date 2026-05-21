@@ -1,0 +1,7 @@
+Change Password - Verifikasi password saat ini belum diimplementasikan
+Email & Identitas - Logika simpan ke backend belum ada
+Nomor Telepon - Logika simpan dan verifikasi SMS belum ada
+Bantuan & Dukungan - Banyak fitur "Coming Soon" belum diimplementasikan
+Perangkat Aktif - Setup 2FA dan notifikasi login belum diimplementasikan
+Keamanan & Privasi - Beberapa fitur belum diimplementasikan
+Tentang Aplikasi - Link kebijakan privasi, terms, rating, share belum aktif

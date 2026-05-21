@@ -1,0 +1,8 @@
+services:
+  api:
+    image: clue/json-server
+    ports:
+      - '3000:80'
+    volumes:
+      - ./db.json:/data/db.json:ro
+    command: --host 0.0.0.0 --watch /data/db.json

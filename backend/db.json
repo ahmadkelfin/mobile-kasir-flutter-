@@ -1,0 +1,8 @@
+{
+  "produk": [
+    { "id": 1, "nama": "Minuman Dingin", "harga": 12000 },
+    { "id": 2, "nama": "Roti Bakar", "harga": 15000 },
+    { "id": 3, "nama": "Kopi Hitam", "harga": 10000 },
+    { "id": 4, "nama": "Nasi Goreng", "harga": 22000 }
+  ]
+}

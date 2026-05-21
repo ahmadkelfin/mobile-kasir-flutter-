@@ -1,0 +1,96 @@
+class AppStrings {
+  // Bahasa Indonesia
+  static const Map<String, String> id = {
+    // Settings
+    'settings': 'Pengaturan',
+    'application_settings': 'Pengaturan Aplikasi',
+    'app_language': 'Bahasa Aplikasi',
+    'select_language': 'Pilih bahasa yang Anda gunakan',
+    'language_and_localization': 'Bahasa & Lokalisasi',
+    'theme': 'Tampilan',
+    'app_theme': 'Tema Aplikasi',
+    'select_theme': 'Pilih tema yang Anda sukai',
+    'light': 'Terang',
+    'dark': 'Gelap',
+    'auto': 'Otomatis (sesuai sistem)',
+    'notifications': 'Notifikasi',
+    'enable_notifications': 'Aktifkan Notifikasi',
+    'receive_notifications': 'Terima pemberitahuan dari aplikasi',
+    'notification_sound': 'Suara Notifikasi',
+    'enable_sound': 'Bunyikan suara saat notifikasi',
+    'notification_vibration': 'Getaran Notifikasi',
+    'enable_vibration': 'Getar perangkat saat notifikasi',
+    'printer': 'Printer',
+    'printer_settings': 'Pengaturan Printer',
+    'printer_config': 'Konfigurasi printer untuk cetak nota',
+    'data': 'Data',
+    'auto_sync': 'Sinkronisasi Otomatis',
+    'sync_data': 'Sinkronkan data secara otomatis',
+    'syncing': 'Sinkronisasi sedang berlangsung...',
+    'backup_data': 'Cadangkan Data',
+    'backup_desc': 'Buat cadangan data aplikasi',
+    'coming_soon': 'Fitur ini akan segera datang',
+    'storage': 'Penyimpanan',
+    'clear_cache': 'Hapus Cache',
+    'cache_desc': 'Hapus file cache untuk menghemat ruang (±45 MB)',
+    'clear_cache_confirm': 'Hapus Cache?',
+    'cache_confirm_msg': 'Ini akan menghapus semua file sementara. Aksi ini tidak bisa dibatalkan.',
+    'cancel': 'Batal',
+    'delete': 'Hapus',
+    'cache_cleared': '✅ Cache berhasil dihapus!',
+    'settings_restart': 'Perubahan pengaturan akan diterapkan setelah restart aplikasi',
+    'indonesia': 'Indonesia',
+    'english': 'English',
+  };
+
+  // English
+  static const Map<String, String> en = {
+    // Settings
+    'settings': 'Settings',
+    'application_settings': 'Application Settings',
+    'app_language': 'App Language',
+    'select_language': 'Select the language you use',
+    'language_and_localization': 'Language & Localization',
+    'theme': 'Appearance',
+    'app_theme': 'App Theme',
+    'select_theme': 'Choose a theme you prefer',
+    'light': 'Light',
+    'dark': 'Dark',
+    'auto': 'Auto (follow system)',
+    'notifications': 'Notifications',
+    'enable_notifications': 'Enable Notifications',
+    'receive_notifications': 'Receive notifications from the app',
+    'notification_sound': 'Notification Sound',
+    'enable_sound': 'Play sound on notification',
+    'notification_vibration': 'Notification Vibration',
+    'enable_vibration': 'Vibrate device on notification',
+    'printer': 'Printer',
+    'printer_settings': 'Printer Settings',
+    'printer_config': 'Configure printer for receipt printing',
+    'data': 'Data',
+    'auto_sync': 'Auto Sync',
+    'sync_data': 'Sync data automatically',
+    'syncing': 'Syncing in progress...',
+    'backup_data': 'Backup Data',
+    'backup_desc': 'Create a backup of app data',
+    'coming_soon': 'This feature will be coming soon',
+    'storage': 'Storage',
+    'clear_cache': 'Clear Cache',
+    'cache_desc': 'Delete cache files to save space (±45 MB)',
+    'clear_cache_confirm': 'Clear Cache?',
+    'cache_confirm_msg': 'This will delete all temporary files. This action cannot be undone.',
+    'cancel': 'Cancel',
+    'delete': 'Delete',
+    'cache_cleared': '✅ Cache cleared successfully!',
+    'settings_restart': 'Settings changes will be applied after restarting the app',
+    'indonesia': 'Indonesia',
+    'english': 'English',
+  };
+
+  static String get(String key, String languageCode) {
+    if (languageCode == 'en') {
+      return en[key] ?? key;
+    }
+    return id[key] ?? key;
+  }
+}

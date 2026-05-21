@@ -1,0 +1,39 @@
+name: mobile_kasir
+description: A simple Flutter point-of-sale kasir app using clean architecture.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  http: ^0.13.6
+  intl: ^0.20.2
+  shared_preferences: ^2.2.0
+  path_provider: ^2.1.0
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.7.3
+  cloud_firestore: ^4.9.1
+  firebase_storage: ^11.2.6
+  image_picker: ^1.0.1
+  cached_network_image: ^3.3.0
+  url_launcher: ^6.1.14
+  blue_thermal_printer: ^1.2.3
+  share_plus: ^12.0.2
+  file_picker: ^8.0.0+1
+  english_words: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

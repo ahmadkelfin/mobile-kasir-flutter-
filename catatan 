@@ -1,0 +1,22 @@
+lib/
+├── models/
+│   ├── user_model.dart
+│   └── transaction_model.dart
+├── providers/
+│   ├── auth_provider.dart
+│   └── cart_provider.dart (existing)
+├── services/
+│   ├── auth_service.dart
+│   └── firestore_service.dart
+├── screens/
+│   ├── auth/
+│   │   ├── login_screen.dart
+│   │   └── register_screen.dart
+│   ├── owner/
+│   │   ├── dashboard_screen.dart
+│   │   └── manage_employees_screen.dart
+│   ├── employee/
+│   │   ├── dashboard_screen.dart
+│   │   └── add_transaction_screen.dart
+│   └── profile_screen.dart
+└── main.dart (updated with Firebase init and auth routing)
